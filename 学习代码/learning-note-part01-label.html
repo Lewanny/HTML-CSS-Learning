@@ -106,10 +106,37 @@
             </ol>
         
         <h2>网页中链接 E-mail 发送</h2>
-        点我<a href="mailto:lihongyuan@lewanny.com?cc=10160201450@qq.com&subject=主题&body=这是邮件内容" title=发送邮件>发送邮件</a>
+            点我<a href="mailto:lihongyuan@lewanny.com?cc=10160201450@qq.com&subject=主题&body=这是邮件内容" title=发送邮件>发送邮件</a>
         
         <h2>插入图片</h2>
-        <img src="http://img.mukewang.com/52da54ed0001ecfa04120172.jpg" alt="小李子" title="小李子">
+            <img src="http://img.mukewang.com/52da54ed0001ecfa04120172.jpg" alt="小李子" title="小李子">
+        
+            <h2>使用表单标签和用户进行交互</h2>
+            <form>
+                账号：<input type="text" name="账号输入框" value="请输入您的账号" / >   
+                <br />
+                密码：<input type="password" name="密码输入框" value="" / >
+            </form>
+        
+        <h2>文本域支持多行输入反对对对反复单独复2333</h2>
+            <form>
+                <label>联系我们</label>
+                <textarea rows=6 cols="33">在这里输入您的内容</textarea>
+            </form>
+        
+        <h2>单选框和复选框</h2>
+            <form method="post" action="save.php">
+                你喜欢编程么？<br />
+                <input type="radio" name="codeLove" value="喜欢" />喜欢
+                <input type="radio" name="codeLove" value="非常喜欢" checked="checked" />非常喜欢
+                <input type="radio" name="codeLove" value="有点喜欢" /> 有点喜欢 <br />
+                你喜欢的运动有哪些？<br />
+                <input type="checkbox" name="sportLove" value="羽毛球" />羽毛球
+                <input type="checkbox" name="sportLove" value="篮球" />篮球
+                <input type="checkbox" name="sportLove" value="乒乓球" /> 乒乓球
+                <input type="checkbox" name="sportLove" value="跑步" /> 跑步
+            </form>
+        
     </body>
     
 </html>
